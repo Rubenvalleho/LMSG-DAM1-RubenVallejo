@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    left: 50px;
+    position: relative;
+    top: 10px;
+    width: 80%;
+}
+
+.padre {
+    background-color: lightblue;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    width: 60%;
+}
+
+.padre div {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+.hijo1 {
+    background-color: red;
+    left: 100px;
+    top: 50px;
+    z-index: 2;
+}
+
+.hijo2 {
+    background-color: chartreuse;
+    left: 120px;
+    top: 30px;
+}
+
+.footer {
+    position: fixed;
+    background-color: lightgray;
+    width: 100%;
+    bottom: 0px;
+}
+
+.sticky-menu div,.footer div {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.sticky-menu {
+    position: sticky;
+    background-color: lightgray;
+    top: 0px;
+    z-index: 1;
+}
+
+.menu-element {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+}
+
+
+.large {
+    width: 80%;
+    height: 1000px;
+    background-color: burlywood;
+}

@@ -1,0 +1,146 @@
+.d-flex {
+    display: flex;
+}
+.d-flex .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+}
+
+.d-flex-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-2 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+}
+
+.d-flex-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-3 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+}
+
+.d-flex-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.d-flex-4 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.d-flex-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.d-flex-5 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+}
+
+.d-flex-6 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.d-flex-6 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.d-flex-7 {
+    display: flex;
+    align-items: self-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.d-flex-7 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.d-flex-8 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: center ;
+}
+
+.d-flex-8 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.d-flex-9 {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-9 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.d-flex-9 .box1 {
+    gap: 30px;
+}
+
+.d-flex-9 .box2 {
+    gap: 15px;
+}
+
+.d-flex-9 .box3 {
+    gap: 15px;
+}
+
+.d-flex-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    flex-wrap: nowrap;
+}
+
+.d-flex-10 .box {
+    border: 3px solid red;
+    font-size: 30px;
+    padding: 20px;
+    color: grey;
+    text-align: center;
+    flex-wrap: wrap;
+}

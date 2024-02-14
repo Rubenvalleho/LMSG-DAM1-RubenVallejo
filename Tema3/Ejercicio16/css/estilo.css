@@ -1,0 +1,44 @@
+body {
+    background-image: url(../img/Fondo.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+#container {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+}
+header {
+    background-image: url(../img/cabecera.jpg);
+    background-size: cover;
+    width: 1024px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+#centro nav ul {
+    background-color: #e9e9e9;
+    width: 20%;
+}
+
+#centro nav ul li {
+    background-image: url(../img/Menu-Off-.jpg);
+    color: white;
+    list-style: none;
+}
+
+#centro nav ul li ul {
+    display: none;
+}
+
+
+#centro nav ul li::selection {
+    color: #FFFFE1;
+    background-image: url(../img/MenuSeleccionado.jpg);
+}
+
+#centro nav ul li ul:hover {
+    color: #f0f0f0;
+    background-color: #000;
+}

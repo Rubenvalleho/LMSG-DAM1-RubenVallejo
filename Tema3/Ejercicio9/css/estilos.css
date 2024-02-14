@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bloques {
+    height: 400px;
+    background-color: red;
+    margin: 40px 30px;
+}
+
+.main {
+    background-color: blue;
+    height: 200px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.bloques div {
+    background-color: green;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    margin: 100px auto;
+}

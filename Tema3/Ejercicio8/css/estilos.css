@@ -1,0 +1,12 @@
+html {
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+    width: 80%;
+}

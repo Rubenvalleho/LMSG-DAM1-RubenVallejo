@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Inserta nombre" required />
+        </p>
+        <p>
+            <label for="provincia">Provincia</label> <!--for="provincia actua como una variable" y se guarda el valia de la opción seleccionada-->
+            <select name="provincia">
+                <optgroup label="Provincia">
+                    <option value="Z">Zaragoza</option>
+                    <option>Huesca</option>
+                    <option selected>Teruel</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <textarea cols="100" rows="10">
+                    Blablablablabla
+            </textarea>
+        </p>
+        <p>
+            <button>Clica aqui crack</button>
+        </p>
+        <p>
+            <button><img src="DAM1.png"></button>
+        </p>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="nombre2">Nombre: </label>
+                <input type="text" name="nombre2" placeholder="Inserta tu nombre crack">
+            </p>
+            <p>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" placeholder="Inserta apellido aqui crack">
+            </p>
+            <p>
+                <label for="direccion">Direccion: </label>
+                <select name="Direccion">
+                    <optgroup label="Direccion">
+                    <option selected>Avila</option>
+                    <option>Segovia</option>
+                    <option>Salamanca</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

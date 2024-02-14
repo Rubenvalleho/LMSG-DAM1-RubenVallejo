@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    float: left;
+    padding: 15px;
+}
+
+li:hover {
+    background-color: black;
+    color: orange;
+}
+
+body {
+    height: 200%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: orange;
+}
+
+.menu {
+    background-color: orange;
+    height: 48px;
+    width: 100%;
+    position: static;
+}
+
+.menu:hover {
+    background-color: black;
+    height: 48px;
+    width: 100%;
+    color: orange;
+}
+
+.img1 {
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+
+.img2 {
+    float: right;
+    padding: 10px;
+    position: sticky;
+}
+
+.img3 {
+    position: absolute;
+    top: 60%;
+}
+
+.img4 {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+}
+
+.contenido {
+    background-color: black;
+    color: orange;
+    margin: 30px;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+table,td,tr,th {
+    border: black solid 1px;
+    border-collapse: separate;
+    text-align: center;
+}
+th {
+    background-color: darkgoldenrod;
+}
+td {
+    background-color: aqua;
+}

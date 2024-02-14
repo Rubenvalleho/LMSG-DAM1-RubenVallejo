@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #cccccc;
+    --bg-color: #074619;
+    --text-color: #fff;
+    --menu-text-color: #e2dfdf;
+    --menu-text-hover-color: #087c29;
+    --submenu-text-color: #000;
+    --footer-bg-menu-color: #087c29;
+    --bg-color-container: #cccccc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    box-shadow: 0 0 10px var(--bg-color-container);
+}
+
+.cb {
+    clear: both;
+}
+
+.header-contacto {
+    background-color: var(--menu-text-hover-color);
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.9rem;
+}
+
+.header-contacto__atencion {
+    float: left;
+}
+
+.header-contacto__social {
+    float: right;
+    text-align: end;
+    padding: 0 10px;
+}
+
+.header-contacto__atencion p {
+    display: inline-block;
+}
+
+.header-contacto__social p {
+    display: inline-block;
+}
+
+.header-contacto__social p a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.header-menu {
+    color: var(--menu-text-color);
+    padding: 15px;
+}
+
+.header-menu__icono {
+    width: 25%;
+    float: left;
+}
+
+.header-menu nav{
+    width: 75%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.header-menu nav ul, .header-menu nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu nav ul li {
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 15px;
+    background-color: var(--text-color);
+}
+
+.header-menu nav ul li ul li {
+    width: 200px;
+    color: var(--submenu-text-color);
+    border: 1px solid var(--menu-text-hover-color);
+}
+
+.header-menu nav ul li:hover ul {
+    display: block;
+    z-index: 20;
+}
+
+[src="img/coviran-bustamante.png"] {
+    position: relative;
+    width: 100%;
+}
+
+[src="img/fanta2.png"] {
+    position: absolute;
+    left: 1200px;
+    transition: left 3s;
+}
+
+[src="img/fanta2.png"]:hover {
+    left: 0;
+}
+
+.noticias {
+    padding: 10px;
+
+}
+
+.noticia {
+    width: 32%;
+    margin: 5px;
+    box-shadow: 0 0 10px var(--bg-color-container);
+    height: 360px;
+    font-size: 1rem;
+    float: left;
+}
+
+.noticia img {
+    width: 100%;
+}
+
+.noticia p {
+    text-align: center;
+    padding: 10px;
+}
+
+.noticia:hover {
+    opacity: 0.5;
+}
+
+.footer-arriba {
+    background-color: var(--footer-bg-menu-color);
+}
+
+.footer-arriba__menu-item {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+}
+
+.footer-arriba__menu-item a {
+    color: var(--text-color);
+}
+
+.footer-arriba__menu-item p {
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer-abajo {
+    background-color: var(--bg-color);
+    padding: 10px 30px;
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+.footer-abajo__imagenes {
+    text-align: center;
+}
+

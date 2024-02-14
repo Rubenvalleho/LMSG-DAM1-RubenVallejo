@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario final</title>
+    <style>
+        legend {border: 1px black solid; background-color: white;}
+        .field1 {background-color: #bbbbbb;}
+        .field2 {background-color: #f1c29c;}
+        .field3 {background-color: #b67e7e;}
+    </style>
+</head>
+<body>
+    <p><h1 style="text-align: center;">HOJA DE INSCRIPCIÓN</h1></p>
+    <p><h1 style="text-align: center;">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1></p>
+    <fieldset class="field1">
+        <legend>Datos personales</legend>
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre: </label></td>
+                <td><label for="apellidos">Apellidos: </label></td>
+                <td><label for="dni">DNI: </label></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="localidad">Localidad de nacimiento: </label></td>
+                <td><label for="provincia">Provincia:</label></td>
+                <td><label for="nacimiento">Fecha de nacimiento: </label></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><select name="provincia"><optgroup label="Provincia"> <option>Ávila</option> <option>Salamanca</option> <option>Segovia</option></optgroup></select></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="direccion">Dirección: </label></td>
+                <td><label for="codigopostal">Código postal:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" size="40"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset class="field2">
+        <legend>Forma de acceso</legend>
+        <dl>
+            <dt><input type="radio">Directo</dt>
+                <dd><input type="radio">Bachillerato Log Modalidad<input type="text"></dd>
+                <dd><input type="radio">Experimental</dd>
+                <dd><input type="radio">COU Opción<input type="text"></dd>
+                <dd><input type="radio">FP2</dd>
+                <dd><input type="radio">Otros (especifique)<input type="text"></dd>
+            <dt><input type="radio">Prueba Libre</dt>
+        </dl>
+    </fieldset>
+    <fieldset class="field3">
+        <legend>Documentos Adjuntados</legend>
+        <table>
+            <tr>
+                <td><input type="checkbox">Fotocopia DNI</td>
+                <td><input type="checkbox">Certificado Académico</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox">Otros documentos (especifique) <input type="text"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <button>Enviar solicitud</button>
+</body>
+</html>

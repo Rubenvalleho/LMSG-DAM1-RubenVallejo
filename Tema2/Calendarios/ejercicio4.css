@@ -1,0 +1,9 @@
+td,tr,th {border: 2px black solid;}
+table {border-collapse: collapse;}
+.sif {background-color: red;}
+.lm {background-color: blue;}
+.ed {background-color: orange;}
+.prog {background-color: green;}
+.fol {background-color: grey;}
+.bd {background-color: lightseagreen;}
+.rec {background-color: salmon;}

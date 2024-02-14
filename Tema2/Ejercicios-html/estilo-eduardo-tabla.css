@@ -1,0 +1,15 @@
+* {
+    font-weight: bold;
+    text-align: center;
+}
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    padding: 15px;
+}
+ul, li {
+    text-align: justify;
+}
