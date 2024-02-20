@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Básicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        /* Codigo general */
+        .padre {
+            background-color: #001f3f;
+            padding: 3px;
+            font-size: 1em;
+            display: flex;
+            margin: 3px;
+            gap:0.3em;
+            display: flex;
+        }
+
+        .hijo {
+            background-color: #0074d9;
+            padding: 20px;
+            color: white;
+        }
+
+        /* Segundo padre */
+        .padre:nth-child(2) .hijo {
+            flex-grow: 1;
+        }
+
+        /* Tercer padre */
+        .padre:nth-child(3) {
+            flex-direction: row;
+        }
+
+        .padre:nth-child(3) .hijo:nth-child(1) {
+            flex-grow: 1;
+        }
+
+        .padre:nth-child(3) .hijo:nth-child(2) {
+            flex-grow: 1;
+        }
+
+        .padre:nth-child(3) .hijo:nth-child(3) {
+            flex-grow: 1;
+        }
+        .padre:nth-child(3) .hijo:nth-child(4) {
+            order: -1;
+        }
+
+        /* Cuarto padre */
+        .padre:nth-child(4) {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .padre:nth-child(4) .hijo:nth-child(1) {
+            margin-right: auto;
+        }   
+    </style>
+</head>
+<body>
+
+    <div class="padre">
+        <div class="hijo">hijo 1</div>
+        <div class="hijo">hijo 2grande</mark></div>
+        <div class="hijo">hijo 3</div>
+        <div class="hijo">hijo 4</div> 
+    </diV>
+    <div class="padre">
+        <div class="hijo">hijo 1</div>
+        <div class="hijo">hijo 2grande</mark></div>
+        <div class="hijo">hijo 3</div>
+        <div class="hijo">hijo 4</div> 
+    </diV>
+    <div class="padre">
+        <div class="hijo">hijo 1</div>
+        <div class="hijo">hijo 2grande</mark></div>
+        <div class="hijo">hijo 3</div>
+        <div class="hijo">hijo 4</div> 
+    </diV>
+    <div class="padre">
+        <div class="hijo">hijo 1</div>
+        <div class="hijo">hijo 2grande</mark></div>
+        <div class="hijo">hijo 3</div>
+        <div class="hijo">hijo 4</div> 
+    </diV>
+
+</body>
+</html>
