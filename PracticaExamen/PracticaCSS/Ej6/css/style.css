@@ -1,0 +1,35 @@
+table, tr, td, th {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+a {
+    font-size: 1.5em;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+}
+
+tr:first-of-type th::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+td:first-child {
+    background-color: green;
+}
+
+tbody tr th {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+input[required] {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+label::after {
+    content: "*" ;
+    color: red;
+}
