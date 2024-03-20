@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+    <empleado>
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <puesto>Desarrollador</puesto>
+    </empleado>
+    <empleado>
+        <nombre>María</nombre>
+        <apellido>Gómez</apellido>
+        <puesto>Diseñadora</puesto>
+    </empleado>
+</empleados>

@@ -1,0 +1,17 @@
+<libros>
+    <libro genero="ciencia ficción">
+        <titulo saga="Amanecer rojo"> Amanecer rojo </titulo>
+        <autor> Pierce brown </autor>
+        <año> 2012 </año>
+    </libro>
+    <libro genero="ciencia ficcion">
+        <titulo saga="Amanecer rojo"> Hijo dorado </titulo>
+        <autor> Pierce brown </autor>
+        <año> 2013 </año>
+    </libro>
+    <libro>
+        <titulo saga="Amanecer rojo">Mañana azul</titulo>
+        <autor> Pierce brown </autor>
+        <año> 2014 </año>
+    </libro>
+</libros>
