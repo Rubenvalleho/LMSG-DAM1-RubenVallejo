@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<empleados>
+<?xml-stylesheet href="transformacion.xslt" type="text/xsl"?>
+<empleados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="empleados.xsd">
     <empleado>
         <nombre>Juan</nombre>
         <apellido>Pérez</apellido>
@@ -9,5 +10,10 @@
         <nombre>María</nombre>
         <apellido>Gómez</apellido>
         <puesto>Diseñadora</puesto>
+    </empleado>
+    <empleado>
+        <nombre>Rubén</nombre>
+        <apellido>Vallejo</apellido>
+        <puesto>Desarrollador</puesto>
     </empleado>
 </empleados>
