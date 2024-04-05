@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio1.xslt" type="text/xsl"?>
+<personas>
+    <persona>
+        <nombre>Antonio</nombre>
+        <apellido>Pérez</apellido>
+        <edad>33</edad>
+    </persona>
+    <persona>
+        <nombre>Pepe</nombre>
+        <apellido>Jimenez</apellido>
+        <edad>28</edad>
+    </persona>
+    <persona>
+        <nombre>Daniel</nombre>
+        <apellido>Suarez</apellido>
+        <edad>23</edad>
+    </persona>
+    <persona>
+        <nombre>Rubén</nombre>
+        <apellido>Vallejo</apellido>
+        <edad>25</edad>
+    </persona>
+</personas>

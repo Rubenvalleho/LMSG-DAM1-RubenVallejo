@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="coches.xslt" type="text/xsl"?>
 <coches xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches.xsd">
     <coche>
-        <marca></marca>
-        <modelo></modelo>
-        <año></año>
-        <precio></precio>
+        <marca>Dacia</marca>
+        <modelo>Sandero</modelo>
+        <año>2023</año>
+        <precio>16.000€</precio>
+    </coche>
+    <coche>
+        <marca>Mazda</marca>
+        <modelo>3</modelo>
+        <año>2023</año>
+        <precio>25.000€</precio>
     </coche>
 </coches>
