@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio7.xslt" type="text/xsl"?>
+<alumnos>
+    <alumno matricula="7645" anio="2014">
+        <nombre>Rubén</nombre>
+        <apellidos>Vallejo Jara</apellidos>
+        <asignaturas>
+            <asigntaura>
+                <nombreasignatura>Matematicas</nombreasignatura>
+                <nota>10</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Lengua</nombreasignatura>
+                <nota>10</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Ingles</nombreasignatura>
+                <nota>10</nota>
+            </asigntaura>
+        </asignaturas>
+    </alumno>
+    <alumno matricula="5632" anio="2021">
+        <nombre>Antonio</nombre>
+        <apellidos>Sanchez</apellidos>
+        <asignaturas>
+            <asigntaura>
+                <nombreasignatura>Matematicas</nombreasignatura>
+                <nota>6</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Lengua</nombreasignatura>
+                <nota>7</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Ingles</nombreasignatura>
+                <nota>5</nota>
+            </asigntaura>
+        </asignaturas>
+    </alumno>
+    <alumno matricula="10000" anio="2021">
+        <nombre>Pepe</nombre>
+        <apellidos>Jimenéz</apellidos>
+        <asignaturas>
+            <asigntaura>
+                <nombreasignatura>Matematicas</nombreasignatura>
+                <nota>2</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Lengua</nombreasignatura>
+                <nota>3</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Ingles</nombreasignatura>
+                <nota>1</nota>
+            </asigntaura>
+        </asignaturas>
+    </alumno>
+    <alumno matricula="8000" anio="2020">
+        <nombre>Daniel</nombre>
+        <apellidos>García</apellidos>
+        <asignaturas>
+            <asigntaura>
+                <nombreasignatura>Matematicas</nombreasignatura>
+                <nota>5</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Lengua</nombreasignatura>
+                <nota>8</nota>
+            </asigntaura>
+            <asigntaura>
+                <nombreasignatura>Ingles</nombreasignatura>
+                <nota>6</nota>
+            </asigntaura>
+        </asignaturas>
+    </alumno>
+</alumnos>
