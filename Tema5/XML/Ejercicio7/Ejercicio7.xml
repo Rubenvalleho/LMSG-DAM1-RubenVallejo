@@ -41,10 +41,10 @@
         <nombre>Pepe</nombre>
         <apellidos>Jimenéz</apellidos>
         <asignaturas>
-            <asigntaura>
+            <asignataura>
                 <nombreasignatura>Matematicas</nombreasignatura>
                 <nota>2</nota>
-            </asigntaura>
+            </asignataura>
             <asigntaura>
                 <nombreasignatura>Lengua</nombreasignatura>
                 <nota>3</nota>
@@ -59,18 +59,18 @@
         <nombre>Daniel</nombre>
         <apellidos>García</apellidos>
         <asignaturas>
-            <asigntaura>
+            <asignataura>
                 <nombreasignatura>Matematicas</nombreasignatura>
                 <nota>5</nota>
-            </asigntaura>
-            <asigntaura>
+            </asignataura>
+            <asignataura>
                 <nombreasignatura>Lengua</nombreasignatura>
                 <nota>8</nota>
-            </asigntaura>
-            <asigntaura>
+            </asignataura>
+            <asignataura>
                 <nombreasignatura>Ingles</nombreasignatura>
                 <nota>6</nota>
-            </asigntaura>
+            </asignataura>
         </asignaturas>
     </alumno>
 </alumnos>
