@@ -28,14 +28,29 @@
                     <th>Ingles</th>
                 </tr>
                 <xsl:for-each select="alumnos/alumno">
-                <tr>
+                <xsl:if test="@anio_matricula=2020 or @anio=2021">
+                <xsl:variable name="matematicas" select="asignaturas/asignatura[nombreasignatura='Matematicas']/nota"/>
+                <xsl:variable name="lengua" select="asignaturas/asignatura[nombreasignatura='Lengua']/nota"/>
+                <xsl:variable name="ingles" select="asignaturas/asignatura[nombreasignatura='Matematicas']/nota"/>
+
+                   <tr>
                     <td><xsl:value-of select="@matricula"/></td>
                     <td><xsl:value-of select="nombre"/></td>
                     <td><xsl:value-of select="apellidos"/></td>
-                    <td><xsl:value-of select="asignaturas/asignatura[nombreasignatura='Matematicas']/nota/text()"/></td>
+                    <td>
+                    <xsl:choose>
+                        <xsl:when test="$matematicas &lt; 5">Suspenso</xsl:when>
+                        <xsl:when test="$matematicas &lt; 6">Suficiente</xsl:when>
+                        <xsl:when test="$matematicas &lt; 7">Bien</xsl:when>
+                        <xsl:when test="$matematicas &lt; 9">Notable</xsl:when>
+                        <xsl:when test="$matematicas &gt;= 9">Sobresaliente</xsl:when>
+                    </xsl:choose>
+                    </td>
                     <td><xsl:value-of select="asignaturas/asignatura[nombreasignatura='Lengua']/nota"/></td>
                     <td><xsl:value-of select="asignaturas/asignatura[nombreasignatura='Ingles']/nota"/></td>
                 </tr>
+                 
+                </xsl:if>
                 </xsl:for-each>
                     
             </table>
