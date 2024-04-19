@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio8.xslt" type="text/xsl"?>
+<catalogo> 
+  <producto id="1" categoria="Electrónica"> 
+    <nombre>Smartphone</nombre> 
+    <precio>500</precio> 
+    <descripcion>Teléfono inteligente de última generación.</descripcion> 
+  </producto> 
+  <producto id="2" categoria="Ropa"> 
+    <nombre>Camisa</nombre> 
+    <precio>30</precio> 
+    <descripcion>Camisa de algodón de manga larga.</descripcion> 
+  </producto> 
+  <!-- Agrega más productos con atributos y una estructura similar --> 
+</catalogo>
