@@ -1,0 +1,6 @@
+<!ELEMENT Productos (Producto+)>
+<!ELEMENT Producto (Nombre, Descripcion?, Precio, Stock?)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Stock (#PCDATA)>

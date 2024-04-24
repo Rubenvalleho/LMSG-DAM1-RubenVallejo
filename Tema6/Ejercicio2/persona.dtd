@@ -1,0 +1,7 @@
+<!ELEMENT Personas (Persona+)>
+<!ELEMENT Persona (Nombre,Apellido,Contacto?)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT Contacto (Email | Telefono)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>

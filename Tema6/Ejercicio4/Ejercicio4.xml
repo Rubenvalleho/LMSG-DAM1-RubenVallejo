@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Productos SYSTEM "producto.dtd">
+<Productos>
+  <Producto>
+    <Nombre>Laptop XYZ</Nombre>
+    <Descripcion>Una laptop de alto rendimiento</Descripcion>
+    <Precio>999.99</Precio>
+    <Stock/>
+  </Producto>
+
+  <Producto>
+    <Nombre>Teléfono ABC</Nombre>
+    <!-- Sin descripción -->
+    <Precio>499.99</Precio>
+    <!-- Sin stock -->
+  </Producto>
+
+  <Producto>
+    <Nombre>Tablet 123</Nombre>
+    <Descripcion>Una tablet ligera y versátil</Descripcion>
+    <Precio>299.99</Precio>
+    <Stock/>
+  </Producto>
+</Productos>

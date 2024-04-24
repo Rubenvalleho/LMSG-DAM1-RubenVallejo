@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Proyecto SYSTEM "proyecto.dtd">
+<Proyecto>
+  <Nombre>Proyecto A</Nombre>
+  <Tareas>
+    <Tarea id="T1">
+      <Titulo>Desarrollar aplicación</Titulo>
+      <Responsable>
+        <IDPersona>U1</IDPersona>
+      </Responsable>
+    </Tarea>
+    <Tarea id="T2">
+      <Titulo>Probar aplicación</Titulo>
+      <Responsable>
+        <IDPersona>U2</IDPersona>
+      </Responsable>
+    </Tarea>
+  </Tareas>
+  <Usuarios>
+    <Usuario id="U1" rol="desarrollador">
+      <NombreUsuario>Juan Pérez</NombreUsuario>
+    </Usuario>
+    <Usuario id="U2" rol="tester">
+      <NombreUsuario>María González</NombreUsuario>
+    </Usuario>
+  </Usuarios>
+</Proyecto>

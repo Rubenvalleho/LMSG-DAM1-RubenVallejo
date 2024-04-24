@@ -1,0 +1,5 @@
+<!ELEMENT ListaDeTareas (Tarea+)>
+<!ELEMENT Tarea (Titulo, Subtareas)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Subtareas (Subtarea+)>
+<!ELEMENT Subtarea (#PCDATA)>

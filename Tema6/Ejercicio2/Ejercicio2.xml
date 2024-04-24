@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Personas SYSTEM "persona.dtd">
+<Personas>
+  <Persona>
+    <Nombre>Juan</Nombre>
+    <Apellido>Pérez</Apellido>
+    <Contacto>
+      <Email>juan.perez@example.com</Email>
+    </Contacto>
+  </Persona>
+
+  <Persona>
+    <Nombre>María</Nombre>
+    <Apellido>González</Apellido>
+    <Contacto>
+      <Telefono>123-456-7890</Telefono>
+    </Contacto>
+  </Persona>
+
+  <Persona>
+    <Nombre>Carlos</Nombre>
+    <Apellido>Rodríguez</Apellido>
+  </Persona>
+</Personas>

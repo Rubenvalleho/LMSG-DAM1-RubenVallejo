@@ -1,0 +1,13 @@
+<!ELEMENT Proyecto (Nombre,Tareas,Usuarios)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Tareas (Tarea+)>
+<!ATTLIST Tarea id ID #REQUIRED>
+<!ELEMENT Tarea (Titulo,Responsable)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Responsable (IDPersona)>
+<!ELEMENT IDPersona (#PCDATA)>
+<!ELEMENT Usuarios (Usuario+)>
+<!ATTLIST Usuario id ID #REQUIRED>
+<!ATTLIST Usuario rol CDATA #REQUIRED>
+<!ELEMENT Usuario (NombreUsuario)>
+<!ELEMENT NombreUsuario (#PCDATA)>
