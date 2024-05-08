@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Empresas (Empresa+)>
+<!ELEMENT Empresa (Nombre, Ubicacion, NumeroDeEmpleados, Proyectos)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Ubicacion (#PCDATA)>
+<!ELEMENT NumeroDeEmpleados (#PCDATA)>
+<!ELEMENT Proyectos (Proyecto+)>
+<!ELEMENT Proyecto (Nombre, FechaInicio, Responsable, Presupuesto, Finalizado, Subvencion?)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT FechaInicio (#PCDATA)>
+<!ELEMENT Responsable (#PCDATA)>
+<!ELEMENT Presupuesto (#PCDATA)>
+<!ELEMENT Finalizado (#PCDATA)>
+<!ELEMENT Subvencion (#PCDATA)>

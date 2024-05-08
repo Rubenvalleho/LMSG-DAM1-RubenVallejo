@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio9.xslt" type="text/xsl"?>
+<?xml-model href="Ejercicio9.dtd" type="application/xml-dtd"?>
+<?xml-model href="Ejercicio9.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Empresas>
+    <Empresa>
+        <Nombre>Innovaciones tech</Nombre>
+        <Ubicacion>Madrid,España</Ubicacion>
+        <NumeroDeEmpleados>120</NumeroDeEmpleados>
+        <Proyectos>
+            <Proyecto>
+                <Nombre>Desarrollo de IA</Nombre>
+                <FechaInicio>2023-01-15</FechaInicio>
+                <Responsable>María Lopez</Responsable>
+                <Presupuesto>200000</Presupuesto>
+                <Finalizado>false</Finalizado>
+                <Subvencion>true</Subvencion>
+            </Proyecto>
+            <Proyecto>
+                <Nombre>Rediseño Web</Nombre>
+                <FechaInicio>2023-03-20</FechaInicio>
+                <Responsable>Juan Perez</Responsable>
+                <Presupuesto>50000</Presupuesto>
+                <Finalizado>true</Finalizado>
+                <Subvencion>false</Subvencion>
+            </Proyecto>
+            <Proyecto>
+                <Nombre>Aplicación secreta</Nombre>
+                <FechaInicio>2024-01-20</FechaInicio>
+                <Responsable>Marcos Lopez</Responsable>
+                <Presupuesto>40000</Presupuesto>
+                <Finalizado>false</Finalizado>
+                <Subvencion>false</Subvencion>
+            </Proyecto>
+        </Proyectos>
+    </Empresa>
+</Empresas>

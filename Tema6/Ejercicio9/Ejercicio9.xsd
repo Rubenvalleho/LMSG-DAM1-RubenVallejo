@@ -1,0 +1,35 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Empresas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Empresa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="Ubicacion" type="xs:string"/>
+                            <xs:element name="NumeroDeEmpleados" type="xs:integer"/>
+                            <xs:element name="Proyectos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Proyecto" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nombre" type="xs:string"/>
+                                                    <xs:element name="FechaInicio" type="xs:date"/>
+                                                    <xs:element name="Responsable" type="xs:string"/>
+                                                    <xs:element name="Presupuesto" type="xs:integer"/>
+                                                    <xs:element name="Finalizado" type="xs:boolean"/>
+                                                    <xs:element name="Subvencion" type="xs:boolean" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
