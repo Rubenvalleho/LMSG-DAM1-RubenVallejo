@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT instituto (profesores, alumnos)>
+<!ATTLIST instituto nombre CDATA #REQUIRED
+                    ubicacion CDATA #REQUIRED>  
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT profesor (nombre, apellidos, asignaturas+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT asignaturas (asignatura+)>
+<!ELEMENT asignatura (nombre, horas)>
+<!ELEMENT horas (#PCDATA)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre,apellido,edad)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

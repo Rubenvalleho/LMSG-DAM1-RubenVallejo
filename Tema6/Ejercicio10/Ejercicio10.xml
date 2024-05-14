@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Ejercicio10.dtd" type="application/xml-dtd"?>
+<?xml-stylesheet href="Ejercicio10.xslt" type="text/xsl"?>
+<!-- <!DOCTYPE Ejercicio10 SYSTEM "Ejercicio10.xsd">-->
+<instituto nombre="Instituto Nacional de Educación" ubicacion="Sevilla, España">
+    <profesores>
+        <profesor>
+              <nombre>Laura</nombre>
+              <apellidos>García Martín</apellidos>
+              <asignaturas>
+                <asignatura>
+                    <nombre>Matemáticas</nombre>
+                    <horas>5</horas>
+                </asignatura>
+                <asignatura>
+                    <nombre>Física</nombre>
+                    <horas>3</horas>
+                </asignatura>
+              </asignaturas>                  
+        </profesor>
+        <profesor>
+            <nombre>David</nombre>
+            <apellidos>Ruiz Fernández</apellidos>
+            <asignaturas>
+              <asignatura>
+                  <nombre>Historia</nombre>
+                  <horas>4</horas>
+              </asignatura>
+              <asignatura>
+                  <nombre>Geografía</nombre>
+                  <horas>2</horas>
+              </asignatura>
+            </asignaturas>                  
+        </profesor>
+    </profesores>
+    <alumnos>
+        <alumno>
+            <nombre>Clara</nombre>
+            <apellido>Sánchez López</apellido>
+            <edad>17</edad>
+        </alumno>
+        <alumno>
+            <nombre>Lucas</nombre>
+            <apellido>Mártinez Pérez</apellido>
+            <edad>16</edad>
+        </alumno>
+      </alumnos>
+    
+</instituto>
