@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Ejercicio10.dtd" type="application/xml-dtd"?>
+<?xml-model href="Ejercicio10.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <?xml-model href="Ejercicio10.dtd" type="application/xml-dtd"?>-->
 <?xml-stylesheet href="Ejercicio10.xslt" type="text/xsl"?>
-<!-- <!DOCTYPE Ejercicio10 SYSTEM "Ejercicio10.xsd">-->
+
 <instituto nombre="Instituto Nacional de Educación" ubicacion="Sevilla, España">
     <profesores>
         <profesor>

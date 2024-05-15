@@ -5,7 +5,7 @@
                 <xs:element name="profesores">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="profesor" maxOccurs="unbounded">
+                            <xs:element name="profesor" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="nombre" type="xs:string"/>
@@ -13,11 +13,11 @@
                                         <xs:element name="asignaturas">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="asignatura" maxOccurs="unbounded">
+                                                    <xs:element name="asignatura" minOccurs="0" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="nombre" type="xs:string"/>
-                                                                <xs:element name="nota" type="xs:int"/>
+                                                                <xs:element name="horas" type="xs:int"/>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
@@ -33,7 +33,7 @@
                 <xs:element name="alumnos">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="alumno" maxOccurs="unbounded">
+                            <xs:element name="alumno"  minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="nombre" type="xs:string"/>
@@ -46,8 +46,9 @@
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required"/>
+            <xs:attribute name="ubicacion" type="xs:string" use="required"/>
         </xs:complexType>
-        <xs:attribute name="nombre" type="xs:string" use="required"/>
-        <xs:attribute name="ubicacion" type="xs:string" use="required"/>
+        
     </xs:element>
 </xs:schema>

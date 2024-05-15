@@ -32,7 +32,7 @@
                         <td>
                             <xsl:for-each select="asignaturas/asignatura">
                             <ul>
-                                <li><b><xsl:value-of select="nombre"/></b>   <xsl:value-of select="horas"/>/horas por semana </li>
+                                <li><strong><xsl:value-of select="nombre"/>: </strong>   <xsl:value-of select="horas"/>/horas por semana </li>
                             </ul>
                             </xsl:for-each>
                         </td> 

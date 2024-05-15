@@ -42,7 +42,22 @@
                         <td><xsl:value-of select="Responsable"/></td>
                         <td><xsl:value-of select="Presupuesto"/></td>
                         <td><xsl:value-of select="Finalizado"/></td>
-                        <td><xsl:value-of select="Subvencion"/></td>
+                        <td>
+                            <xsl:choose>
+                                <xsl:when test="Subvencion">
+                                    <xsl:value-of select="Subvencion"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    No
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="Subvencion">
+                                <xsl:value-of select="Subvencion"/>
+                            </xsl:if>
+                            <xsl:if test="not(Subvencion)">
+                                No
+                            </xsl:if>
+                        </td>
                     </tr>    
                     </xsl:for-each>
                 </table>

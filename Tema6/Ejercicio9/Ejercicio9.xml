@@ -30,7 +30,6 @@
                 <Responsable>Marcos Lopez</Responsable>
                 <Presupuesto>40000</Presupuesto>
                 <Finalizado>false</Finalizado>
-                <Subvencion>false</Subvencion>
             </Proyecto>
         </Proyectos>
     </Empresa>
